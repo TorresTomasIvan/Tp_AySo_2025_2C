@@ -1,0 +1,62 @@
+pwd
+ls 
+mkdir repogit_tomas
+cd repogit_tomas/
+git init
+git clone [200~
+git clone https://github.com/TorresTomasIvan/Tp_AySo_2025_2C.git
+ls
+cd Tp_AySo_2025_2C/
+ls
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls -l 
+cat /etc/os-release 
+man grep
+grep HOME_URL /etc/os-release 
+grep Home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)"> dato_usuario.txt 
+git status
+git config --global user.name tomitorres748@gmial.com
+git config --global user.email tomitorres748@gmail.com
+git config --global user.name TorresTomasIvan
+git status
+clear
+grep model name /proc/cpuinfo 
+grep model name tail n-1 /proc/cpuinfo 
+grep model name /proc/cpuinfo tail -n1
+grep "model name" /proc/cpuinfo | tail -n 1
+grep "model name" /proc/cpuinfo | tail -n 1 >> dato_usuario.txt 
+git add u
+da
+git add dato_usuario.txt 
+git config --global user.email tomitorres748@gmail.com
+git config --global user.name TorresTomasIvan
+cat /etc/passwd
+man sort
+cat /etc/passwd | head -n 10
+grep man
+man grep
+grep -v "nologin" /etc/passwd | sort -t: -k7 | head -n 10 > lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+git add lista_ordenada.txt 
+commmit -m "ADD: Lista de Usuarios Ordenada"
+git commit -m "ADD: Lista de Usuarios Ordenada"
+tcpdump
+sudo tcpdump
+echo "sudo tcpdump" > comando_dump_net
+git add comando_dump_net 
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat << FIN > README.md 
+Alumno: Tomas Ivan Torres
+Division: 314
+Turno: Noche
+FIN
+
+cat README.md 
+history -a
+cat $HOME/.bash_history 
+clear

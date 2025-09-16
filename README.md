@@ -1,1 +1,3 @@
-# Tp_AySo_2025_2C
+Alumno: Tomas Ivan Torres
+Division: 314
+Turno: Noche
